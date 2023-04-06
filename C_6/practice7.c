@@ -7,18 +7,19 @@ int main(void)
 {
 
     int x, y, n, sum;
-    int i = 0;
+    int i = 1;
 
     printf("반복횟수를 설정하시오: ");
     scanf("%d", &n);
 
-    while ( i < n) 
+    while ( i <= n) 
     {
     printf("두 수를 입력하시오: ");
     scanf("%d %d", &x, &y);
     sum = x + y;
+    printf("Case #%d : %d + %d = %d\n", i, x, y, sum);
     i++;
-    printf("%d\n", sum);
+
    
     }
 
