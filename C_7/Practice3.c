@@ -17,7 +17,7 @@ int main(void)
     scanf("%d %d", &x, &y);
 
     larger = max(x, y);
-    printf("더 큰 값은 %d입니다. \n", larger);
+    printf("더 큰 값은 %d입니다. \n", larger);  // 윗줄 삭제 후 printf("더 큰 값은 %d입니다. \n", max(x,y)); 사용 가능
     return 0;
 
 
