@@ -13,7 +13,7 @@ int main(void){
     scanf("%lf", &half);        // 입력받기
 
     x = 4 * PI * half * half;
-    y = 4 * PI * half * half * half / 3;     // 계산식 사용 y = (4 / 3) * PI * half * half * half; 로 하면 1 * PI 가 되어버림
+    y = 4 * PI * half * half * half / 3;     // 계산식 사용 y = (4 / 3) * PI * half * half * half; 로 하면 1 * PI ~~  가 되어버림
 
     printf("표면적은 %.2lf입니다. \n체적은 %.2lf입니다. \n", x, y);       // 출력
 
