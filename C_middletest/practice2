@@ -1,0 +1,18 @@
+// 사용자로부터 입력을 받아보자
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+    int x, y;
+
+    printf("첫번째 숫자를 입력하시오: ");
+    scanf("%d", &x);
+    printf("두번째 숫자를 입력하시오: ");
+    scanf("%d", &y);
+    printf("두수의 합: %d", x + y);
+
+    return 0;
+
+}
