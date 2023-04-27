@@ -1,4 +1,4 @@
-// 평균 계산하기 프로그램
+// switch문 활용하여 산술계산 프로그램 작성
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
