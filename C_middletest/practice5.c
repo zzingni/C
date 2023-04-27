@@ -1,4 +1,4 @@
-// 평균 계산하기 프로그램
+// 사각형의 둘레와 면적
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
