@@ -20,10 +20,11 @@ int is_prime(int n)
                 count++;
             }
         }
-            if(count == 2)
-            {
-                printf("%d \n", i);
-            }
+        
+        if(count == 2)
+        {
+                printf("%d ", i);
+        }
         
         count = 0;
     }
