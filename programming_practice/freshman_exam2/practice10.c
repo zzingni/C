@@ -1,7 +1,7 @@
 // Lab: 동전 던지기 게임, 동전을 100번 던져서 앞면이 나오는 횟수와 뒷면이 나오는 횟수를 출력한다.
 
 #include <stdio.h>
-#include <stdio.h>
+#include <time.h>
 
 int toss_coin(void);
 
