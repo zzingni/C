@@ -8,9 +8,9 @@ int main(void) {
     srand((unsigned)time(NULL));
 
     int sum;
-    int num[SIZE] = {0,};                                           // 모두 0으로 초기화시켜줘야함(0부터 빈도수 누적)!!!!!!!
+    int num[SIZE] = {0,};                                           // 모두 0으로 초기화시켜줘야함.
 
-    for(int i=0; i<=1000; i++) {
+    for(int i=0; i<1000; i++) {                                     // 1000번 반복. 0 부터 시작이니까 i<1000 (관계연산자 항상 신경쓰기)
         ++num[rand()%6];
     }
     printf("========================\n");
