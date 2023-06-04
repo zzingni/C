@@ -8,10 +8,10 @@ int main(void) {
     srand((unsigned)time(NULL));
 
     int sum;
-    int num[SIZE] = {0,1,2,3,4,5};
+    int num[SIZE] = {0,};                                           // 모두 0으로 초기화시켜줘야함(0부터 빈도수 누적)!!!!!!!
 
     for(int i=0; i<=1000; i++) {
-        ++num[rand()%6];                                      //rand()%6 -> 0~5 까지의 랜덤 수 발생. ex) ++num[5] num배열의 5번째 요소값 1 증가. 
+        ++num[rand()%6];
     }
     printf("========================\n");
     printf("숫자         빈도\n");
