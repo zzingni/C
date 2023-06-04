@@ -10,7 +10,7 @@ int main(void) {
     int n;
     n = get_integer();
 
-    for(int i=2; i<=n; i++)                 // prime()함수를 호출하여 i가 입력받은 정수 n까지 반복하여 검사하면서 i의 값이 1이면 출력
+    for(int i=2; i<=n; i++)                 // prime()함수를 호출하여 i가 입력받은 정수 n까지 반복하여 검사하면서 prime(i)의 값이 1이면 출력
     {
         if(prime(i)==1) {
             printf("%d ", i);
