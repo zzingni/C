@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+void save(int amount);
 int main(void) {
     printf("=====================================\n");
     printf("입금 \t출금\t 잔고\n");
